@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(36, 49, 228);
+
+}
+
+body{
+    background-color: #ebe4da;
+    overflow-x:hidden ;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    padding: 15px 18px !important;
+}
+
+.logo{
+    font-weight: 600;
+    color: rgba(246, 247, 244, 0.848) !important;
+
+}
+
+.nav-item{
+    margin: 0px 10px;
+
+}
+
+.nav-item .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.home-img{
+    position: absolute;
+    top: 120px;
+    right: 80px;
+    width: 400px;
+    
+}
+
+.heading-home {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 40px;
+    font-weight: 350;
+    color: #220707;
+}
+
+.heading-home1 {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 30px;
+    font-weight: 350;
+    color: #220707;
+}
+
+.p-home { 
+    position: absolute;
+    top: 100px;
+    font-size: 20px;
+    left:200;
+    color: #0a0b0a;
+    font-weight: 350;
+}
+.h-home{
+    position: absolute;
+    top: 20px;
+    font-size: 10px;
+    left: 30px;
+    font-weight:100 ;
+}
+.btn-home {
+    position: absolute;
+    top: 470px;
+    left: 500px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    background: #124719;
+    border-radius: 60px;
+    width: 400px;
+    height: 50px;
+    border: none;
+    transition: 0.5s;
+}
+
+.btn-home:hover {
+    transform: scale(1.1);
+    box-shadow: 6px 6px 6px -2px rgb(0, 0, 0, 0.75);
+}
+
+.btn-home:active {
+    transform: scale(.99);
+}
+.box-conteiner img{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    width: 400px;
+    height:350px ;
+}
+.box-conteiner {
+    position: absolute;
+    top: 180px;
+    right: 80px;
+    width: 400px;
+    height:350px ;
+}
+
+.p-faq {
+    position: absolute;
+    top: 180px;
+    right: 80px;
+    max-width: 800px;
+    color: #100f0f;
+    font-size:20px ;
+}
+.box-conteiner {
+    position: absolute;
+    top: 180px;
+    right: 800px;
+    max-width: 800px;
+    left: 500;
+    color: #100f0f;
+    font-size:20px ;
+}
